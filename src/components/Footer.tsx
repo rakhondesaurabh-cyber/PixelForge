@@ -14,9 +14,9 @@ export default function Footer() {
             <p className="text-adobe-text-muted max-w-sm mb-8">
               The modern, high-performance photo editor built for everyone. No subscriptions, just pure creativity.
             </p>
-            <button className="bg-adobe-blue hover:bg-adobe-blue-hover text-white px-6 py-3 rounded-full text-sm font-medium transition-colors flex items-center gap-2 w-fit">
+            <a href="https://github.com/rakhondesaurabh-cyber/PixelForge/releases/download/PixelForge/PixelForge.Setup.1.0.0.exe" download className="bg-adobe-blue hover:bg-adobe-blue-hover text-white px-6 py-3 rounded-full text-sm font-medium transition-colors flex items-center gap-2 w-fit">
               <Download size={18} /> Get PixelForge Free
-            </button>
+            </a>
           </div>
 
           <div>

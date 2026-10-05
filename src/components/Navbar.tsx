@@ -32,9 +32,9 @@ export default function Navbar() {
 
           <div className="hidden md:flex items-center space-x-4">
             <a href="#" className="text-sm font-medium text-adobe-text-muted hover:text-adobe-text transition-colors">Sign In</a>
-            <button className="bg-adobe-blue hover:bg-adobe-blue-hover text-white px-5 py-2 rounded-full text-sm font-medium transition-colors flex items-center gap-2">
+            <a href="https://github.com/rakhondesaurabh-cyber/PixelForge/releases/download/PixelForge/PixelForge.Setup.1.0.0.exe" download className="bg-adobe-blue hover:bg-adobe-blue-hover text-white px-5 py-2 rounded-full text-sm font-medium transition-colors flex items-center gap-2">
               Download Free <ChevronRight size={16} />
-            </button>
+            </a>
           </div>
 
           <div className="md:hidden flex items-center">

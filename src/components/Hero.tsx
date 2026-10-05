@@ -72,9 +72,9 @@ export default function Hero() {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <button className="w-full sm:w-auto bg-adobe-blue hover:bg-adobe-blue-hover text-white px-8 py-4 rounded-full text-lg font-medium transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2">
+            <a href="https://github.com/rakhondesaurabh-cyber/PixelForge/releases/download/PixelForge/PixelForge.Setup.1.0.0.exe" download className="w-full sm:w-auto bg-adobe-blue hover:bg-adobe-blue-hover text-white px-8 py-4 rounded-full text-lg font-medium transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2">
               <Download size={20} /> Download for Windows
-            </button>
+            </a>
             <button className="w-full sm:w-auto bg-white border border-adobe-border hover:bg-gray-50 text-adobe-text px-8 py-4 rounded-full text-lg font-medium transition-colors">
               Explore Features
             </button>
